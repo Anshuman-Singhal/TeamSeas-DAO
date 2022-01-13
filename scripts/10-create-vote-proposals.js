@@ -45,12 +45,12 @@ const tokenModule = sdk.getTokenModule(
   }
 
   try {
-    const amount = 6_900;
-    // Create proposal to transfer ourselves 6,900 tokens for being awesome.
+    const amount = 1_500;
+    // Create proposal to transfer ourselves 1_500 tokens.
     await voteModule.propose(
       "Should the DAO transfer " +
       amount + " tokens from the treasury to " +
-      process.env.WALLET_ADDRESS + " for being awesome?",
+      process.env.WALLET_ADDRESS + "? It will be used in support of TeamSeas.",
       [
         {
           // Again, we're sending ourselves 0 ETH. Just sending our own token.

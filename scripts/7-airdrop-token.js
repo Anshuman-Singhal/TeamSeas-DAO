@@ -27,7 +27,7 @@ const tokenModule = sdk.getTokenModule(
     // Loop through the array of addresses.
     const airdropTargets = walletAddresses.map((address) => {
       // Pick a random # between 1000 and 10000.
-      const randomAmount = Math.floor(Math.random() * (10000 - 1000 + 1) + 1000);
+      const randomAmount = Math.floor(Math.random() * (1000 - 100 + 1) + 100);
       console.log("✅ Going to airdrop", randomAmount, "tokens to", address);
       
       // Set up the target.
