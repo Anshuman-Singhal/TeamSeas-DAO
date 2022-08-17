@@ -187,7 +187,7 @@ const memberList = useMemo(() => {
       <div className="landing">
         <h1>Welcome to 🐋TeamSeasDAO</h1>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
-          Connect your wallet
+          Connect your wallet (will need metamask extension)
         </button>
       </div>
     );
