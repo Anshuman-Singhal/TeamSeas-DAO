@@ -6,7 +6,7 @@ import { useWeb3 } from "@3rdweb/hooks";
 import { ThirdwebSDK } from "@3rdweb/sdk";
 
 // We instantiate the sdk on Rinkeby.
-const sdk = new ThirdwebSDK("rinkeby");
+const sdk = new ThirdwebSDK("goerli");
 
 // We can grab a reference to our ERC-1155 contract.
 const bundleDropModule = sdk.getBundleDropModule(
